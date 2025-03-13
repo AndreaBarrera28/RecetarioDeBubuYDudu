@@ -1,0 +1,63 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+.btn-link-danger {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: #dc3545;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: #bb2d3b;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-active-color: #bb2d3b;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-border-color: transparent;
+    --bs-btn-box-shadow: 0 0 0 #000;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    text-decoration: underline;
+}
+.btn-link-warning {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: #ffc107;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: #ffca2c;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-active-color: #ffca2c;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-border-color: transparent;
+    --bs-btn-box-shadow: 0 0 0 #000;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    text-decoration: underline;
+}
+.btn-link-success {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: #198754;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: #157347;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-active-color: #157347;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-border-color: transparent;
+    --bs-btn-box-shadow: 0 0 0 #000;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    text-decoration: underline;
+}
+
+
+/** este se puede utilizar para tablas que requieren scroll
+  * muchas veces con solo poner un div previo que tenga table-wrapper, funciona
+  */
+.table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  }
+
+.table-xs>:not(caption)>*>* {
+    padding: 4px 8px;
+}
