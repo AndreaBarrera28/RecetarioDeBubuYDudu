@@ -20,14 +20,15 @@ class IngredientSearch
     {
         $request=$this->params;
         $query=Ingredient::query();
+        $query->select(['ingredients.id', 'ingredients.name']);
         if($request->has('sorting') && !empty($request->input('sorting')))
         {
             foreach($request->input('sorting') as $sortRule)
             {
                 $query->orderBy($sortRule['id'], $sortRule['desc'] == 'true' ? 'desc' : 'asc');
             }
-        }else{
-            $query->orderBy('ticket_status.id', 'asc');
+        } else {
+            $query->orderBy('ingredients.id', 'asc');
         }
         return $query;
     }
