@@ -3,10 +3,10 @@ import HolaMundo from "./pages/Main";
 
 const router = createBrowserRouter([
     {
-        path:  "users/",
+        path:  "/",
         element: <HolaMundo/>,
     },
-    
+
 
 ]);
 
