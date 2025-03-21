@@ -18,4 +18,11 @@ class IngredientController extends Controller
         ]);
 
     }
+
+    public function test()
+    {
+        return response()->json([
+            'message'=>'success'
+        ],200);
+    }
 }
