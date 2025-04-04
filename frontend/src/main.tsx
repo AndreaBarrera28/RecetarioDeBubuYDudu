@@ -6,7 +6,7 @@ import React from "react";
 //import "remixicon/fonts/remixicon.css";
 //import "@fortawesome/fontawesome-free/css/all.min.css";
 
-//import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 //import "bootstrap/dist/js/bootstrap.min.js"; /
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
